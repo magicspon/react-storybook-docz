@@ -3,6 +3,8 @@
 tmp
 private
 .netlify
+.cache
+.docz
 deploy
 
 # test output
