@@ -1,3 +1,5 @@
 import React from 'react'
 
-export default () => <div className="text-brand text-xxl-fluid">I am the button</div>
+export default ({ children }) => (
+	<div className="text-brand text-xl-fluid">{children}</div>
+)

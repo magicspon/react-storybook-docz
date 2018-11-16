@@ -2,10 +2,17 @@
 name: Hello world
 ---
 
+import { Playground, PropsTable } from 'docz' 
 import Button from './Button'
+import '../../styles/style.css'
 
-# Hello world
 
-Hello, I'm still a mdx file, but now I have a button component!
+# Button
 
-<Button>Click</Button>
+<PropsTable of={Button} />
+
+## Basic usage
+
+<Playground>
+  <Button>Click me!</Button>
+</Playground>
