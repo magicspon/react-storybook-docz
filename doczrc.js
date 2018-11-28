@@ -4,9 +4,12 @@ import path from 'path'
 import postcssConfig from './postcss.config'
 
 export default {
-	title: 'My Cool Project',
+	title: 'PES',
 	description: 'This is my awesome documentation',
 	files: 'src/**/*.{md,markdown,mdx}',
+	themeConfig: {
+		mode: 'dark'
+	},
 
 	modifyBundlerConfig: config =>
 		merge(config, {

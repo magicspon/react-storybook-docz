@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default ({ children }) => (
-	<div className="text-brand text-xl-fluid">{children}</div>
-)
+export default class Button extends Component {
+	render() {
+		return <div>hello world!!</div>
+	}
+}

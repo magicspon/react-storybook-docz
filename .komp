@@ -1,5 +1,5 @@
 {
     "baseName": "component",
-    "basePath": "src/templates/",
+    "basePath": "src/components/",
     "template": "base"
 }

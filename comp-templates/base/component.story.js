@@ -1,8 +1,10 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
-import Button from './Button'
+import @@name from './@@name'
 
 import '@/styles/style.css'
 
-storiesOf('Button', module).add('with text', () => <Button />)
+storiesOf('@@name', module).add('with text', () => (
+	<@@name />
+))
